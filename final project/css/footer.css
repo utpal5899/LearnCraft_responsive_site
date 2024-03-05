@@ -1,0 +1,33 @@
+/* footer */
+.footer {
+  background-color: #000000;
+  padding: 50px;
+  /* margin-top: 10%; */
+}
+.footer_info_columns {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer_info_columns a {
+  color: white;
+  text-decoration: none;
+}
+.footer_info_columns a:hover {
+  color: rgb(197, 232, 197);
+}
+.footer_info {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 120px;
+  justify-content: space-around;
+  /* flex-direction: column; */
+}
+.foorer_heading {
+  font-size: larger;
+}
+
+

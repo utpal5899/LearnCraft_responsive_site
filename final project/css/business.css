@@ -1,0 +1,167 @@
+* {
+    margin: 0%;
+}
+
+body {
+    margin: 0%;
+    font-size: clamp(16px, 2.5vw, 18px);
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: clamp(1.75rem, 5vw, 2.5rem);
+}
+
+h2 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+}
+
+
+
+
+/* header  */
+
+#header_img {
+    width: 100%;
+}
+
+#header_content {
+    width: 50%;
+    position: absolute;
+    padding: 3%;
+    font-size: 25px;
+    word-spacing: 0.1em;
+    top: 15%;
+    left: 20%;
+    transform: translate(-20%, 30%);
+}
+
+span {
+    color: rgb(195, 67, 215);
+}
+
+
+/* sections */
+/*  */
+#heading_hero {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+.content {
+
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.coursecontent {
+    width: 175px;
+    /* padding: 10px; */
+    text-align: center;
+
+    margin-top: 15px;
+    /* margin-right: 30px; */
+    margin-bottom: 30px;
+    overflow: hidden;
+
+
+
+}
+
+.coursecontent img {
+    width: 80%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+
+.trusted_partners {
+    background-color: rgb(83, 79, 79);
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+.partner {
+    width: 50px;
+
+    height: auto;
+
+
+}
+
+.upskill{
+
+    margin-top: 60px;
+    text-align: center;
+    
+
+}
+.upskill p{
+    margin-bottom: 40px;
+}
+.upskill_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upskill_items img{
+    width: 30%;
+    height: auto;
+    
+}
+
+.upskill_content{
+    font-size: large;
+    margin-right: 0;
+    text-align: left;
+    
+}
+
+.upskill_content p{
+    font-weight: bold;
+    word-spacing: 2px;
+    margin-top: 20px;
+    
+}
+.upskill_content ul{
+    margin-top: 20px;
+    line-height: 2;
+}
+.transformative_learning_container{
+    background-color:   aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 200px;
+    padding:50px  100px  100px 100px;
+}
+.transformative_learning_sec>img{
+    width: 20%; 
+    padding-left: 34%;
+}
+.transformative_learning_sec{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.brands{
+     
+    display: flex;
+    flex-wrap: wrap; 
+ justify-content: center;   
+margin-left: -120px;
+}
+.partner{
+    padding-top:  30px ;
+    padding-bottom: 30px;
+    padding-left: 10%;
+}
